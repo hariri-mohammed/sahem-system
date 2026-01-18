@@ -30,7 +30,6 @@
 </p>
 
 <p align="center">
-  <img src="screenshots/volunteer_requests.png" width="30%">
   <img src="screenshots/supervisor_managers.png" width="30%">
   <img src="screenshots/supervisor_volunteers.png" width="30%">
 </p>
