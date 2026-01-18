@@ -15,7 +15,34 @@
 - 👨‍💼 **المديرين والمشرفين** - الذين يدارون النظام
 
 ---
+📸 Screenshots Gallery
 
+<p align="center">
+  <img src="screenshots/login.png" width="30%">
+  <img src="screenshots/home.png" width="30%">
+  <img src="screenshots/volunteer_register.png" width="30%">
+</p>
+
+<p align="center">
+  <img src="screenshots/activities.png" width="30%">
+  <img src="screenshots/add_activity.png" width="30%">
+  <img src="screenshots/organization_view.png" width="30%">
+</p>
+
+<p align="center">
+  <img src="screenshots/volunteer_requests.png" width="30%">
+  <img src="screenshots/supervisor_managers.png" width="30%">
+  <img src="screenshots/supervisor_volunteers.png" width="30%">
+</p>
+
+<p align="center">
+  <img src="screenshots/organization_list.png" width="30%">
+  <img src="screenshots/statistics.png" width="30%">
+  <img src="screenshots/all_activities.png" width="30%">
+</p>
+
+
+---
 ## 🎯 الفكرة الأساسية
 
 النظام يقوم على **ثلاث ركائز أساسية:**
@@ -37,6 +64,12 @@
 
 ---
 
+
+🎯 أهداف المشروع
+
+• توفير منصة موحدة لعرض الفعاليات والجمعيات. • تسهيل تسجيل المتطوعين مع نظام موافقات واضح. • تمكين المشرفين من إدارة الفعاليات والجمعيات بسهولة. • تقديم واجهة عامة جذابة وسهلة الاستخدام. • بناء أساس قوي للتوسع المستقبلي (التبرعات – طلبات التطوع – التقارير – تطبيق جوال).
+
+---
 ## 👥 الأطراف المستخدمة (Roles)
 
 | الدور | الصلاحيات |

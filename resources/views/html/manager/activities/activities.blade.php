@@ -68,6 +68,7 @@
                                 <span>تاريخ النهاية: {{ $activity->end_date ?? $activity['end_date'] }}</span>
                             </div>
 
+
                             <div class="action-buttons">
                                 <button class="btn action-btn view-btn"
                                     onclick="window.location.href='{{ route('manager.activities.view', $activity->id ?? $activity['id']) }}'">
@@ -94,11 +95,11 @@
                                     </button>
                                 </form>
                             </div>
-
                         </div>
                     </div>
                 </div>
 
+                {{-- Modal حذف الفعالية --}}
                 <div class="modal fade" id="deleteModal{{ $activity['id'] }}" tabindex="-1" aria-hidden="true">
                     <div class="modal-dialog modal-dialog-centered">
                         <div class="modal-content">

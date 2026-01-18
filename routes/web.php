@@ -12,15 +12,12 @@ require __DIR__ . '/supervisor/supervisor_web.php';
 |--------------------------------------------------------------------------*/
 route::prefix('/sahem')->name('public.')->group(function () {
     // الصفحة الرئيسية
-    Route::get('/home', [PublicController::class, 'home'])
-        ->name('home');
+    Route::get('/home', [PublicController::class, 'home'])->name('home');
     // الجمعيات
-    Route::get('/organizations', [PublicController::class, 'organizations'])
-        ->name('organizations.index');
+    Route::get('/organizations', [PublicController::class, 'organizations'])->name('organizations.index');
 
     // صفحة جمعية معينة
-    Route::get('/organizations/{id}', [PublicController::class, 'showOrganization'])
-        ->name('organizations.show');
+    Route::get('/organizations/{id}', [PublicController::class, 'showOrganization'])->name('organizations.show');
 
     /*
 |--------------------------------------------------------------------------

@@ -57,9 +57,9 @@ class ActivityController extends Controller
 
 
     // عرض نموذج إضافة فعالية (GET)
-    public function addActivity(Request $request)
+    public function addActivity()
     {
-        $managerId = session('manager_id');
+
         return view('html.manager.activities.add_activity');
     }
 
@@ -163,6 +163,7 @@ class ActivityController extends Controller
             $data['image'] = $imagename;
         }
         try {
+
             $activity->update($data);
 
             // تحديث أو حذف السجلات الفرعية

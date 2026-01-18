@@ -13,6 +13,7 @@
 </head>
 
 <body>
+
     @include('templates.navbar_manager')
 
     <main class="main-content">

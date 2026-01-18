@@ -35,10 +35,6 @@ return [
     */
 
     'guards' => [
-        'web' => [
-            'driver' => 'session',
-            'provider' => 'users',
-        ],
 
 
         'supervisor' => [
@@ -71,10 +67,7 @@ return [
     */
 
     'providers' => [
-        'users' => [
-            'driver' => 'eloquent',
-            'model' => App\Models\User::class,
-        ],
+
 
         'supervisors' => [
             'driver' => 'eloquent',

@@ -11,6 +11,7 @@ class CheckManagerAuth
     // عمل Middleware للتحقق من مصادقة المدير
     public function handle(Request $request, Closure $next)
     {
+        // التحقق من مصادقة المدير
         if (!Auth::guard('manager')->check()) {
             // التحقق من وجود معرف المدير في الجلسة
             if ($request->session()->has('manager_id')) {
